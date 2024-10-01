@@ -1,0 +1,621 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Oxanium;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1550px;
+  color: white;
+}
+header {
+  background-image: url("./img/logo.png");
+  max-width: 1550px;
+  height: 722px;
+}
+body {
+  background-color: rgb(0, 0, 29);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.burger-container {
+  display: none;
+}
+input {
+  display: none;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+a {
+  text-decoration: none;
+}
+.nav-list__item a {
+  font-weight: 600;
+  color: white;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  left: 100%;
+  padding-top: 30px;
+  background-color: #040d17;
+  width: 100%;
+  transition: all 1s;
+  display: none;
+}
+.sidebar-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.nav-list-phone {
+  flex-direction: column;
+}
+
+main {
+  margin-bottom: 100px;
+  display: flex;
+
+  flex-wrap: wrap;
+  padding: 50px 50px 0;
+  justify-content: space-between;
+  position: relative;
+}
+.main-text1 {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.main-text1 h2 {
+  font-family: Oxanium;
+  font-size: 78px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+}
+.main-text1 h1 {
+  font-family: Oxanium;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.style3 {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+.style4 {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.main-img {
+  flex-direction: column;
+  display: flex;
+  margin-left: 800px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.img1 {
+  margin-bottom: 40px;
+}
+.img2,
+.img4 {
+  margin-top: 40px;
+}
+.main-text1 span {
+  font-family: Oxanium;
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #00eebd;
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #144558;
+  transform: skew(-10deg);
+  border: none;
+  font-family: Oxanium;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.btn:hover {
+  background-color: transparent;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+
+section h2 {
+  font-family: Oxanium;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  margin-top: 50px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+.img {
+  transform: skewX(-5deg);
+}
+.img img {
+  height: 600px;
+}
+
+.wrap1 {
+  padding: 15px;
+  transform: skewX(-10deg);
+  background-color: #102031;
+  width: 200px;
+  height: 150px;
+  border: 2px solid #1f3e62;
+}
+
+.wrap2 {
+  padding: 15px;
+  transform: skewX(-10deg);
+  background-color: #102031;
+  width: 200px;
+  height: 150px;
+  border: 2px solid #1f3e62;
+}
+
+.wrap3 {
+  padding: 15px;
+  transform: skewX(-10deg);
+  background-color: #102031;
+  width: 200px;
+  height: 150px;
+  border: 2px solid #1f3e62;
+}
+
+.style2 {
+  font-family: sans-serif;
+  width: 700px;
+  padding: 15px 0;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.section2 {
+  margin-top: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.section2-qator1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.page1 {
+  width: 370px;
+
+  border-radius: 15px;
+  border: none;
+  background-color: #102031;
+}
+.page1-text1 {
+  margin-bottom: 50px;
+}
+.page1-text1 h2 {
+  font-family: Oxanium;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 27.5px;
+  text-align: left;
+  margin-top: 20px;
+}
+.page1-text1 h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  margin-top: -30px;
+}
+.page1-text2 p {
+  font-family: Oxanium;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.page1-text2 h5 {
+  font-family: Oxanium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+.page-card {
+  display: flex;
+  gap: 40px;
+}
+
+.btn2 {
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #144558;
+  transform: skew(-10deg);
+  border: none;
+  font-family: Oxanium;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  margin-left: 45%;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.btn2:hover {
+  background-color: transparent;
+}
+.btn2:active {
+  transform: scale(0.9);
+}
+.section3 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
+.orash {
+  background-color: #144558;
+  transform: skewX(-2deg);
+  bottom: none;
+  width: 400px;
+  padding: 20px 50px;
+}
+.h2-h3-style {
+  margin-bottom: 20px;
+  align-items: center;
+}
+.h2-h3-style h2 {
+  font-family: Oxanium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.h2-h3-style h3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+}
+.main11 {
+  display: flex;
+
+  gap: 50px;
+  margin-left: 160px;
+  width: 370px;
+  margin-bottom: 100px;
+}
+.page11-1page {
+  width: 370px;
+  background-color: #144558;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main11-text {
+  padding: 10px;
+}
+.main11-text p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: #dbdbdb;
+  margin-bottom: 20px;
+}
+.main11-text h4 {
+  font-family: Oxanium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  color: #f5f5f5;
+  margin-bottom: 4px;
+}
+.main11-text b {
+  font-family: Oxanium;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: left;
+  color: #f5f5f5;
+}
+.main2 {
+  display: flex;
+  gap: 50px;
+  margin-left: 160px;
+  width: 370px;
+  margin-bottom: 100px;
+}
+
+.main2-page {
+  width: 370px;
+  background-color: #144558;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main2-text {
+  padding: 10px;
+}
+.main2-text p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.main2-text h4 {
+  font-family: Oxanium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  width: 300px;
+}
+.main3 {
+  width: 1170px;
+  margin-left: 10%;
+  margin-top: 50px;
+  background-image: url("./img/bacgraundIMG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 70px;
+  transform: skewX(-5deg);
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main3-text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.main3-text h3 {
+  font-family: Oxanium;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  text-align: left;
+  width: 550px;
+}
+
+.btn6 {
+  width: 200px;
+  height: 50px;
+
+  background-color: #144558;
+  transform: skew(-10deg);
+  border: none;
+  font-family: Oxanium;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.btn6:hover {
+  background-color: transparent;
+}
+.btn6:active {
+  transform: scale(0.9);
+}
+footer {
+  width: 1170px;
+  margin-left: 10%;
+  padding: 40px 100px;
+  background: linear-gradient(180deg, #0d2137 -14.02%, #030c15 117.3%);
+  transform: skewX(-5deg);
+  margin-bottom: 20px;
+}
+.footer-page1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 170px;
+  margin-bottom: 35px;
+}
+.footer-text1 {
+  display: flex;
+  gap: 30px;
+}
+.footer-text1 a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.8s linear;
+}
+.footer-text1 a:hover {
+  color: #3c7fc6;
+}
+.footer-text1 a:active {
+  transform: scale(0.9);
+}
+.footer-page2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 445px;
+  margin-bottom: 35px;
+}
+.footer-style {
+  width: 50px;
+  height: 4px;
+  transform: skew(-20deg);
+  background-color: aquamarine;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-text2 {
+  font-family: Oxanium;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+  text-align: left;
+
+  margin-bottom: 10px;
+  color: white;
+}
+.footer-page3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 191px;
+  margin-bottom: 35px;
+}
+.footer-div1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+}
+.footer-div1 p {
+  width: 281px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  border: 1px solid #0d2137;
+  transform: skewX(-5deg);
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+.btn7 {
+  width: 100px;
+  height: 40px;
+
+  background-color: #144558;
+  transform: skew(-10deg);
+  border: none;
+  font-family: Oxanium;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+
+  color: white;
+
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.btn7:hover {
+  background-color: transparent;
+}
+.btn7:active {
+  transform: scale(0.9);
+}
+.iconlar {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.footer-style5 {
+  display: flex;
+  justify-content: center;
+  font-family: Oxainum;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-list-phone {
+    display: block;
+  }
+  .nav-list__item {
+    margin-top: 15px;
+  }
+  .burger-container {
+    display: block;
+  }
+  input:checked + .sidebar {
+    left: 0;
+  }
+  .btn {
+    margin-left: 10px;
+  }
+  main {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .main-img {
+    display: block;
+    margin-left: none;
+  }
+  .sidebar {
+    display: block;
+  }
+}
